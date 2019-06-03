@@ -1279,7 +1279,7 @@ a[rel~="attachment"]:hover,
 
 .genesis-nav-menu .sub-menu a {
 	border: 1px solid #eee;
-	border-top: 0;
+	border-top: 1000;
 	padding: 15px;
 	position: relative;
 }
@@ -1723,7 +1723,7 @@ p.form-submit,
 
 	.site-header {
 		position: inherit;
-		text-align: center;
+		text-align: left;
 	}
 
 	.header-image .nav-primary:not(button) {
@@ -1785,7 +1785,7 @@ p.form-submit,
 		display: block;
 		margin: 0 auto;
 		overflow: hidden;
-		text-align: center;
+		text-align: right;
 		visibility: visible;
 	}
 
@@ -1827,12 +1827,12 @@ p.form-submit,
 		float: none;
 		margin-top: 1px;
 		margin-bottom: 1px;
-		position: relative;
+		position: inherit;
 		text-align: left;
 	}
 
 	.genesis-responsive-menu .genesis-nav-menu .menu-item:hover {
-		position: relative;
+		position: fixed;
 	}
 
 	.genesis-responsive-menu .genesis-nav-menu .menu-item a {
