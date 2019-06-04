@@ -148,7 +148,7 @@ body > div {
 body {
 	background-color: #eee;
 	color: #333;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', cursive;
 	font-size: 20px;
 	font-size: 2rem;
 	font-weight: 300;
@@ -165,6 +165,8 @@ input[type="submit"],
 textarea:focus,
 .button,
 .gallery img {
+	font-family: 'Oswald', sans-serif;
+font-family: 'Lato', sans-serif;
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition:    all 0.1s ease-in-out;
 	-ms-transition:     all 0.1s ease-in-out;
@@ -452,7 +454,7 @@ input[type="submit"],
 .entry-content a.more-link {
 	background-color: transparent;
 	border: 1px solid #333;
-	color: #333;
+	color: rgb(92, 72, 72);
 	cursor: pointer;
 	font-size: 14px;
 	font-size: 1.4rem;
@@ -528,7 +530,7 @@ input:hover[type="submit"],
 .footer-widgets .entry-content a.more-link:focus,
 .footer-widgets .entry-content a.more-link:hover {
 	background-color: #fff;
-	color: #333;
+	color: rgb(168, 61, 61);
 	text-decoration: none;
 }
 
@@ -1258,7 +1260,7 @@ a[rel~="attachment"]:hover,
 }
 
 .genesis-nav-menu .current-menu-item > a {
-	color: #55acee;
+	color: #53abdd;
 }
 
 .genesis-nav-menu .sub-menu {
@@ -1916,5 +1918,17 @@ p.form-submit,
 		margin-left: 0;
 		width: 100%;
 	}
-
 }
+/* custom edit 6/3/2018 */
+	#menu-item-740 a:hover {
+	color: #f085b7;
+  }
+
+  .site-title a {
+	font-family: 'Oswald', italic; 
+   }
+
+   #featured-page-2, #front-page-4 {
+	background-color: #a4cdf9;
+  }
+
