@@ -231,7 +231,7 @@ blockquote {
 }
 
 blockquote::before {
-	content: "\201C";
+	content: "201C";
 	display: block;
 	font-size: 30px;
 	font-size: 3rem;
@@ -1929,6 +1929,39 @@ p.form-submit,
    }
 
    #featured-page-2, #front-page-4 {
-	background-color: #a4cdf9;
+	background-color: #f085b7;
   }
+
+  #text-15 {
+	  background-image:
+	    linear-gradient(
+		  to bottom right,
+		  #f085b7, #f4d03f
+		);
+	border: 1px solid #f4d03f;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+  }
+
+  .footer-widgets {
+	linear-gradient(
+		to bottom right,
+		  #f085b7, #f4d03f
+		);
+	background-color: #ca20da;
+	clear: both;
+	padding: 0px 0px;
+	text-align: center;
+}
+
+.front-page-1 {
+	background-image: 
+	  url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulus-cloud.jpg);
+
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+
 
