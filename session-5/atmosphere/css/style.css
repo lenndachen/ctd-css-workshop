@@ -1946,10 +1946,6 @@ p.form-submit,
   }
 
   .footer-widgets {
-	linear-gradient(
-		to bottom right,
-		  #f085b7, #f4d03f
-		);
 	background-color: #ca20da;
 	clear: both;
 	padding: 0px 0px;
